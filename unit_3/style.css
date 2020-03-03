@@ -140,7 +140,7 @@ table td {
 
 .footer {
 	background-color: black;
-	height: 250px;
+	height: 350px;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -10px;
@@ -151,11 +151,18 @@ table td {
 	padding-top: 110px;
 }
 
+.footer h3 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
 .button {
   background-color: white;
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 15px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
