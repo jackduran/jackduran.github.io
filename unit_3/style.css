@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Anton&display=swap');
+
+.logo {
+	font-size: 30px;
+	font-family: bebas Neue; sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+	color: white;
+	line-height: 28px;
+	float: left;
+	height: 50px;
+	margin-left: 35px;
+	-webkit-text-stroke: .2pt #fff;
+}
+
 .nav {
 	width: 100%;
-	text-align: right;
-
+	position: relative;
 }
 
 .nav .container ul {
@@ -34,11 +48,6 @@ h1, h3, p, {
 	color: white;
 }
 
-h1 {
-	text-transform: uppercase;
-	font-size: 80px;
-	font-weight: 700;
-}
 
 .header {
 	background: url(images/kimfoxx.jpg) no-repeat center center;
@@ -51,82 +60,110 @@ h1 {
 
 }
 
-.hero .container {
-	position: relative;
-	top: 350px;
-}
-
-
-.header h1 {
-	color: #fff;
-	font-size: 80px;
-	font-weight: 800;
+.hero {
 	text-align: center;
 }
+
+.hero .container {
+	position: relative;
+	top: 250px;
+	display: inline-block; 
+	text-align: left;
+}
+
+
+h1 {
+	color: #fff;
+	font-size: 130px;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: Bebas Neue; sans-serif;
+	font-style: italic;
+	line-height: 110px;
+	text-align: left;
+	display: block;
+	-webkit-text-stroke: 2pt #fff;
+}
+
 
 .header h3 {
 	color: #fff;
 	font-weight: 500;
 	text-transform: uppercase;
-	margin-top: -45px;
+	margin-top: -75px;
 	text-align: center;
 	font-size: 20px;
+	-webkit-text-stroke: .5pt #fff;
 }
 
 .section1 {
 	background-color: black;
-	height: 750px;
+	height: 800px;
 	margin-top: -20px;
 	margin-left: -10px;
 	margin-right: -10px; 
+	text-align: center
 }
 
 .section1 .container {
-	padding-top: 200px;
-	padding-left: 350px;
-	padding-right: 350px;
+	padding-top: 170px;
+	padding-left: 150px;
 	color: white;
+	text-align: center;
+	width: 32%;
 }
 
 .section1 h3 {
 	font-size: 50px;
-	text-align: center;
+	text-align: left;
+	font-family: Bebas Neue; sans-serif;
+	display: block;
+	-webkit-text-stroke: 1pt #fff;
+	font-style: italic;
+}
+
+.section1 p {
+	text-align: left;
+	font-size: 17px;
+	line-height: 25px;
 }
 
 
 table {
 	background-color: #EA0F3E;
-	height: 500px;
+	height: 520px;
 	width: 
 	color: white;
 	margin-left: -10px;
 	margin-right: -10px;
 	padding-right: 10px;
 	padding-left: 30px;
+	font-family: bebas Neue; sans-serif;
 }
 
 th {
 	text-align: center;
 	color: white;
 	font-weight: 700;
-	line-height: -100;
-	font-size: 60px;
+	font-size: 80px;
 	padding-top: 60px;
+	-webkit-text-stroke: 2pt #fff;
 }
 
 
 td {
 	color: white;
 	text-align: left;
-	font-weight: 525;
-	font-size: 19px;
-	padding-right: 10px;
-	padding-left: 30px;
-	padding-top: -10px;
+	font-weight: 500;
+	font-size: 18px;
+	padding-right: 20px;
+	padding-left: 40px;
+	padding-top: -20px;
 	padding: 0 50px;
 	vertical-align: top;
+	font-family: avenir; sans-serif;
+	-webkit-text-stroke: .1pt #fff;
 }
-	
 
 table {
   border-collapse: collapse;
@@ -138,9 +175,23 @@ table td {
 
 }
 
+.section2 .t td {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 525;
+	font-family: bebas Neue; sans-serif;
+	font-size: 30px;
+	line-height: 10px;
+}
+
+.section2 .b {
+	line-height: -20px;
+}
+
+
 .footer {
 	background-color: black;
-	height: 350px;
+	height: 400px;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -10px;
@@ -154,19 +205,20 @@ table td {
 .footer h3 {
 	text-align: center;
 	color: white;
-	font-size: 25px;
-	padding-bottom: 10px;
+	font-size: 70px;
+	font-family: bebas Neue; sans-serif;
+	line-height: 0px;
 }
 
 .button {
   background-color: white;
   border: none;
   color: black;
-  padding: 15px 28px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 510;
 }
 
