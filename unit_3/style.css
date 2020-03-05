@@ -9,6 +9,7 @@
 	line-height: 28px;
 	float: left;
 	height: 50px;
+	width: 200px;
 	margin-left: 35px;
 	-webkit-text-stroke: .2pt #fff;
 }
@@ -41,6 +42,8 @@
 	text-align: right;
 }
 
+
+
 a {
 	color: white;
 }
@@ -62,7 +65,6 @@ h1, h3, p, {
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: 0px;
-	position: static;
 }
 
 .hero {
@@ -124,7 +126,6 @@ h1 {
 	text-align: left;
 	font-family: Bebas Neue; sans-serif;
 	-webkit-text-stroke: 1pt #fff;
-	font-style: italic;
 	float: left;
 }
 
