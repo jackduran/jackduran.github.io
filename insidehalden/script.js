@@ -33,22 +33,23 @@
 
 // for each section, we define the zoom data here
 const zoomData = [
-    {scale: 1, origin: [0.5, 0.5]},  
-    {scale: 2, origin: [0.8, .90]},
+    {scale: 1, origin: [0.5, 0.5]}, 
+    {scale: 2, origin: [0.1, 0.5]}, 
+    {scale: 1, origin: [0.5, 0.5]}, 
+    {scale: 2, origin: [0.6, .90]},
     {scale: 1, origin: [0.5, 0.5]},
     {scale: 2, origin: [0.8, 0.20]},
     {scale: 1, origin: [0.5, 0.5]},
-    {scale: 2, origin: [0.8, 0.4]},
+    {scale: 2, origin: [0.4, 0.0]},
     {scale: 1, origin: [0.5, 0.5]},
-    {scale: 2, origin: [0.1, 0.2]},
 
   ],
   // now create the timeline that we'll scrub
   tl = gsap.timeline({
     scrollTrigger: {
-      start: 20700, // start from the top
+      start: 19700, // start from the top
       end: "+=" + ((zoomData.length - 1) * 100) + "%", // each section is 100% of the viewport height
-      scrub: 0.5 // take 0.5 to catch up to scroll position
+      scrub: 0.8 // take 0.5 to catch up to scroll position
     }
   });
 
@@ -63,3 +64,5 @@ zoomData.slice(1).forEach(data => {
     ease: "power1.inOut"
   });
 });
+
+
