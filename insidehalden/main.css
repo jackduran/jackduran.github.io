@@ -128,9 +128,9 @@
      bottom: 0;
      right: 0;
      top: 0;
-     width: 100%;
+     width: 100vw;
      /* height: 100%; */
-     z-index: -5;
+     z-index: -100;
  }
 
 
@@ -139,14 +139,14 @@
  }
 
  section {
-     z-index: 4; 
+     z-index: 100; 
      position: relative;
      padding: 2em;
 
  }
 
  .content {
-   z-index: 4;
+   z-index: 100;
      position: sticky;
      position: -webkit-sticky;
      width: 100%;
@@ -165,7 +165,8 @@
  } */
 
  .content h2 {
-     font-size: 2em;
+  z-index: 100;   
+  font-size: 2em;
      font-family: 'Alfa Slab One', cursive;
      font-weight: bold;
      color: black;
@@ -177,6 +178,7 @@
  }
 
  .content h3 {
+  z-index: 100;
   font-size: 1.3em;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
@@ -190,7 +192,8 @@
 }
 
  .content p { font-size: 1em; 
-     color: black;
+  z-index: 100;   
+  color: black;
      padding: 10px 15px;
      margin-right: 0;
      background: #ffffff80;
