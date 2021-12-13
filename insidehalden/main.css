@@ -135,7 +135,7 @@
  }
 
  section {
-     z-index: 4;
+     /* z-index: 4; */
      position: relative;
      padding: 2em;
 
