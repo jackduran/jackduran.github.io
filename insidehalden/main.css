@@ -50,6 +50,16 @@
 
    }
 
+ .header h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: .9em;
+  max-width: 500px;
+  z-index: 100;
+  color: #ffffff;
+ }
+
    .header h1 {
      font-size: 60px;
      font-weight: 800;
@@ -59,7 +69,6 @@
      max-width: 100%;
      z-index: 5;
      transition: 0.4s;
-     padding-top: 2em;
      color: #ffffff;
      margin: 1em auto 1em auto;
      top:0;
@@ -75,17 +84,6 @@
      z-index: 100;
      color: #ffffff;
      padding-bottom: 2em;
- }
-
- .header h6 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: .9em;
-  max-width: 500px;
-  z-index: 100;
-  color: #ffffff;
-  padding-bottom: .3em;
  }
 
 
