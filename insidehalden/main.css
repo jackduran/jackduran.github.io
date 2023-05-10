@@ -27,6 +27,20 @@
   text-align: center;
 }
 
+#navbar h5 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: .75em;
+  color: white;
+  text-align: left;
+}
+
+#navbar h6 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: .75em;
+  color: white;
+  text-align: right;
+}
+
 
  #v1 {
      position: relative;
