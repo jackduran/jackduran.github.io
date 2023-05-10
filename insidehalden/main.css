@@ -24,21 +24,24 @@
   font-family: 'Alfa Slab One', cursive;
   font-size: 1.2em;
   color: white;
-  text-align: center;
+  float: center;
+ max-width: 33vw; 
 }
 
 #navbar h5 {
   font-family: 'Poppins', sans-serif;
   font-size: .75em;
   color: white;
-  text-align: left;
+  float: left;
+ max-width: 33vw; 
 }
 
 #navbar h6 {
   font-family: 'Poppins', sans-serif;
   font-size: .75em;
   color: white;
-  text-align: right;
+  float: right;
+ max-width: 33vw; 
 }
 
 
