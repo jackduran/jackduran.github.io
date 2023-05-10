@@ -93,6 +93,18 @@
      padding-bottom: 2em;
  }
 
+ .header h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: .9em;
+  max-width: 500px;
+  z-index: 100;
+  color: #ffffff;
+  padding-bottom: .3em;
+ }
+
+
  .header p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
