@@ -448,7 +448,7 @@ section:nth-of-type(4) {
   font-size: 2em;
   max-width: 500px;
  padding-bottom: .5em;
-  margin: 1em auto auto auto;
+  margin: auto auto auto auto;
   z-index: 100;
   color: #ffffff;
 }
