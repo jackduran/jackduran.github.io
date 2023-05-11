@@ -329,6 +329,7 @@
      z-index: 5; 
      padding: 2vh 2vh 5vh 2vh; 
      position: relative;
+     overflow: hidden;
      background-color: #000000;
  }
 
