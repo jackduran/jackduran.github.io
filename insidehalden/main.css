@@ -465,12 +465,13 @@
      max-width: 600px;
      margin: 0 auto 0 auto;
      z-index: 100;
+  padding-bottom: .9em;
      color: #ffffff;
  }
 
 .footer p {
      font-family: 'Poppins', sans-serif;
-     font-weight: 500;
+     font-weight: 700;
      text-align: center;
      font-size: .80em;
      line-height: 1.8em;
