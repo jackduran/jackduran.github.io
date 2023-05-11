@@ -229,7 +229,7 @@
   max-width: 500px;
 }
 
- .content p { font-size: 1em; 
+ .content p { font-size: .9em; 
   z-index: 50;   
   color: black;
      padding: 10px 15px;
