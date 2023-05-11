@@ -128,10 +128,9 @@
      width: 100%;
      position: sticky;
      position: -webkit-sticky;
-     top: 0;
+     top: 2em;
      right: 0;
      height: 100vh; 
-     overflow: hidden;
      z-index: 4;
    }
    .photo {
@@ -267,7 +266,6 @@
   padding: 2vh 2vh 5vh 2vh; 
   position: relative;
   background-color: #000000;
-  top: 3em;
  }
 
  .prisondesign h2 {
