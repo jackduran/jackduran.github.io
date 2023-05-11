@@ -376,7 +376,15 @@
   color: #ffffff;
 
 }
-
+ .newyork h5 {
+     font-family: 'Alfa Slab One', cursive;
+     text-align: left;
+     font-size: 1em;
+     max-width: 600px;
+     margin: 0 auto 0 auto;
+     z-index: 100;
+     color: #ffffff;
+ }
 
 .conclusion  {
   width: 100%;
