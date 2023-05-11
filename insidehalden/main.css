@@ -162,7 +162,7 @@
 
 
  #v0 {
-     position: fixed;
+     position: sticky;
      bottom: 0;
      right: 0;
      top: 0;
