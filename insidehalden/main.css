@@ -248,7 +248,11 @@
      height: 3500px;
  }
  section:nth-of-type(3) {
-     height: 8000px;
+     height: 4000px;
+ }
+
+ section:nth-of-type(4) {
+     height: 4000px;
  }
 
  
