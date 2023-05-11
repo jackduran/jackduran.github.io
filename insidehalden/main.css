@@ -441,7 +441,7 @@
   margin: 0;
   margin-bottom: -50px;
   z-index: 5; 
-  padding: 2em 2em 10em 2em; 
+  padding: 2em 2em 2em 2em; 
   position: relative;
   background-color: #000000;
 }
@@ -451,6 +451,7 @@
   text-align: center;
   font-size: 2em;
   max-width: 500px;
+ padding-bottom: .5em;
   margin: 1em auto auto auto;
   z-index: 100;
   color: #ffffff;
